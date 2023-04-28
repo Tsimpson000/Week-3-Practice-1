@@ -14,5 +14,10 @@ namespace Week_3_Practice_1
         {
             _wheels = wheels;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" - Number of wheels {_wheels}";
+        }
     }
 }

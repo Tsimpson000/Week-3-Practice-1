@@ -16,5 +16,10 @@ namespace Week_3_Practice_1
         }
 
         public string Color { get => _color; set => _color = value; }
+
+        public override string ToString()
+        {
+            return $"{this.GetType()} - Color: {Color}";
+        }
     }
 }

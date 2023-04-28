@@ -14,5 +14,10 @@ namespace Week_3_Practice_1
         {
             _type = type;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" - It is a {_type}";
+        }
     }
 }
